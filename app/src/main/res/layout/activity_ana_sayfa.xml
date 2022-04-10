@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/line1"
+    tools:context="com.example.aykankinali.proje.AnaSayfa">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:text="EN İYİ SKOR(KOLAY)="
+                android:textColor="@android:color/black"
+                android:textDirection="firstStrong"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:textColorLink="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvbest3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:textColor="@android:color/black" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:text="EN İYİ SKOR(ORTA)="
+                android:textColor="@android:color/black"
+                android:textDirection="firstStrong"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:textColorLink="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvbest2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       "
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="23dp"
+                android:text="EN İYİ SKOR(ZOR)="
+                android:textColor="@android:color/black"
+                android:textDirection="firstStrong"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:textColorLink="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/tvbest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       "
+                android:textColor="@android:color/holo_red_dark"
+                android:textColorHighlight="@android:color/holo_red_dark"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:textColorLink="@android:color/holo_red_dark"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:textColor="@android:color/holo_red_dark" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:text="ZORLUK SEVİYESİ SEÇİN"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <Button
+                android:id="@+id/kolay"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:text="KOLAY"
+                android:textSize="14sp"
+                android:textStyle="bold"
+          />
+
+            <Button
+                android:id="@+id/orta"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:text="ORTA"
+                android:textStyle="bold"
+         />
+
+            <Button
+                android:id="@+id/zor"
+                style="@android:style/Widget.Button.Inset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:text="ZOR"
+                android:textStyle="bold"
+        />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
